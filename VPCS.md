@@ -15,11 +15,11 @@ After starting VPCS, you can open a console to manage and configure it and use t
     #### DHCP
     * `ip dhcp` or `dhcp`: Set the IP address of the PC via DHCP 
 
-### Show
+#### Show
 * `show`: Show summary information like IP address, MAC address, gateway, etc.
 * `show ip`: Show detailed information about the IP address
 * `show arp`: Show the ARP table of the PC
 
 
-### Ping
+#### Ping
 * `ping <ip address>`: Send an ICMP echo request to the specified IP address
