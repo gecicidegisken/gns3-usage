@@ -11,7 +11,6 @@ After starting VPCS, you can open a console to manage and configure it and use t
 #### IP Address
 
 * `ip <ip address>`: Set the IP address of the PC manually
-* `ip dhcp`: Set the IP address of the PC to be obtained via DHCP
 
     #### DHCP
     * `ip dhcp` or `dhcp`: Set the IP address of the PC via DHCP 
