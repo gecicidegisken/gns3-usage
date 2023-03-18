@@ -1,5 +1,12 @@
 ## Cisco Routers
 
+
+* [Usage](#usage)
+    * [Getting Help](#getting-help)
+    * [Configuration Mode](#configuration-mode)
+    * [Interface Configuration Mode](#interface-configuration-mode)
+    * [Show Configuration](#show-configuration)
+* [DHCP Server](#dhcp-server)
 ### Usage
 After starting the router, you can open a console to manage and configure it and use the following commands to configure the router:
 
@@ -25,7 +32,7 @@ Remember that you can use show commands in default mode.
 * `show ip arp`: Show the ARP table. Can be abbreviated to `show arp`
 * `show ip dhcp pool`: Show the DHCP pools 
 
-#### DHCP Server
+### DHCP Server
 * `ip dhcp pool <pool name>`: Create a DHCP pool
 * `network <network address> <subnet mask>`: Set the network address of the DHCP pool
 * `default-router <ip address>`: Set the default gateway of the DHCP pool
