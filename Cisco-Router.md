@@ -23,7 +23,7 @@ After starting the router, you can open a console to manage and configure it and
 * `no shutdown`: Enable the interface
 * `shutdown`: Disable the interface
 
-#### Show Configuration
+#### Show 
 Remember that you can use show commands in default mode.
 
 * `show ip interface brief`: Show a summary of the IP addresses of the interfaces. Can be abbreviated to `show ip int br`
