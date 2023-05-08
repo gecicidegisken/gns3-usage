@@ -5,8 +5,9 @@
     * [Getting Help](#getting-help)
     * [Configuration Mode](#configuration-mode)
     * [Interface Configuration Mode](#interface-configuration-mode)
-    * [Show Configuration](#show-configuration)
+    * [Show Configuration](#show)
 * [DHCP Server](#dhcp-server)
+* [NAT](#nat)
 ### Usage
 After starting the router, you can open a console to manage and configure it and use the following commands to configure the router:
 
