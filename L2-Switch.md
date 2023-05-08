@@ -46,5 +46,16 @@ After starting the switch, you can open a console to manage and configure it and
     * `switchport trunk encapsulation dot1q`: Configure trunk encapsulation as 802.1Q
     * `switchport mode trunk`: Configure interface as trunk port
     * `switchport trunk allowed vlan <vlan-id>`: Assign allowed VLANs to the trunk port
+  
+  
+ ### STP
+ * `spanning-tree vlan 1` : Enable STP for VLAN 1
+ * `show spanning-tree`: Show STP configurations
+ * `spanning-tree priority <value>`: Change switch priority value
+ * `spanning-tree vlan 1 root primary`: Set switch as primary root bridge
+ * `clear spanning-tree [interface]`: Clear STP for an interface
+ * `spanning-tree port-priority [interface] [priority]` : Set priority for an interfaceü
+ * `no spanning-tree vlan 1` : Disable STP for VLAN 1
+ 
     
 
