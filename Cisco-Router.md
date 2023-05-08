@@ -37,3 +37,16 @@ Remember that you can use show commands in default mode.
 * `network <network address> <subnet mask>`: Set the network address of the DHCP pool
 * `default-router <ip address>`: Set the default gateway of the DHCP pool
 * `dns-server <ip address>`: Set the DNS server of the DHCP pool
+
+### NAT
+
+#### Static NAT
+* R(interface)`ip nat inside` : Configure interface as NAT inside interface
+* `ip nat outside`: Configure interface as NAT outside interface
+* `ip nat inside source static <source-ip> <dest-ip>` : Configure a static NAT translation
+
+#### Dynamic NAT
+* `access-list 1 permit <ip-address> <subnet-mask>`:  Permit traffic from <ip-address>
+* `ip nat pool <pool-name> <start-ip-addr> <end-ip-addr> netmask <netmask>`: #create a NAT pool
+* `ip nat inside source list 1 pool <pool-name>` : Enable pool
+   
